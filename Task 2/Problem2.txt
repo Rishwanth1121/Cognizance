@@ -1,0 +1,15 @@
+Declare Integer n, a, b, c, x
+
+Set a = 0
+Set b = 1
+Set c = 0
+Display "Enter the value of n"
+Input n
+While c < n
+    Set x = a + b
+    Set a = b
+    Set b = x
+    Set c = c + 1
+End While
+Display "The n th value is"
+Display a

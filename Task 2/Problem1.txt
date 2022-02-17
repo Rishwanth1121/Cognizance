@@ -1,0 +1,13 @@
+Declare Integer a, b
+
+Display "Enter the Number"
+Input a
+Set b = 0
+While b < a
+    Set b = b + 3
+End While
+If a == b Then
+    Display "True"
+Else
+    Display "False"
+End If
